@@ -13,13 +13,10 @@
      font-size: 20px;
  }
 
- .nav-menu li:hover {
+ /* .nav-menu li:hover {
      transform: scale(1.05);
      transition: 0.5s;
-     border-bottom: 2px solid;
-
-
- }
+ } */
 
  .nav-connect {
      padding: 20px 40px;
@@ -32,6 +29,6 @@
 
  .nav-connect:hover {
      transform: scale(1.05);
-     transition: 0.5s;
+     transition: 0.4s;
      border: 1px solid #b415ff;
  }
