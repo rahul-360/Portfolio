@@ -11,6 +11,7 @@
      list-style: none;
      gap: 60px;
      font-size: 20px;
+     cursor: pointer;
  }
 
  /* .nav-menu li:hover {
@@ -31,4 +32,21 @@
      transform: scale(1.05);
      transition: 0.4s;
      border: 1px solid #b415ff;
+ }
+
+ .nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+ }
+
+ .nav-menu li img{
+    display: flex;
+    margin: auto;
+ }
+
+ .anchor-link{
+    text-decoration: none;
+    color: white;
  }

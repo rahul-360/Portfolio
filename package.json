@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/react-anchor-link-smooth-scroll": "^1.0.5",
     "anchor": "^1.4.1",
     "link": "^2.1.1",
     "react": "^18.3.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1",
     "scroll": "^3.0.1",
     "smooth": "^0.1.1-alpha.61"
