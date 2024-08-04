@@ -170,3 +170,9 @@
         padding: 15px 40px;
     }
 }
+
+@media (max-width:480px) {
+    .contact{
+        margin:40px;
+    }
+}

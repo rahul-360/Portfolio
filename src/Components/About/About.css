@@ -28,9 +28,10 @@
     display: flex;
     gap: 80px;
 }
-.about-left img{
+
+.about-left img {
     border-radius: 50%;
-    width: 450px;
+    width: 300px;
 }
 
 .about-right {
@@ -168,28 +169,24 @@
         font-size: 34px;
         font-weight: 700px;
     }
-    .about-achievement p{
+
+    .about-achievement p {
         text-align: center;
         font-size: 16px;
     }
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width:480px) {
+    .about-skill {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-achievements {
+        gap: 20px;
+        justify-content: center;
+    }
+    .about-achievement p {
+        font-size: 12px;
+    }
 }
