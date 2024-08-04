@@ -28,6 +28,10 @@
     display: flex;
     gap: 80px;
 }
+.about-left img{
+    border-radius: 50%;
+    width: 450px;
+}
 
 .about-right {
     display: flex;
